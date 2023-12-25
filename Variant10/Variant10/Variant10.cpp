@@ -2,10 +2,8 @@
 using namespace std;
 int EnterNumberA(int a)
 {
-    cout << "Enter A - ";
-    cin >> a;
-    cout << "A = " << a << "\n";
-    return a;
+    
+    return 0;
 }
 
 int EnterNumberB(int b)
@@ -18,21 +16,18 @@ int EnterNumberB(int b)
 
 int EnterNumberC(int c)
 {
-    cout << "Enter C - ";
-    cin >> c;
-    cout << "C = " << c << "\n";
-    return c;
+    
+    return 0;
 }
 
 void Zadanie1(int a, int b, int c)
 {
-    cout << "remainder from dividing the sum of integers A and B by C - " << (a + b) % c << "\n";
+    
 }
 
 void Zadanie2(int a, int b, int c)
 {
-    cout << "integer part of dividing the sum of integers A and B by C - " << (a + b) / c << "\n";
-}
+   
 
 
 int main()
