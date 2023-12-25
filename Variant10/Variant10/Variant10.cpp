@@ -22,7 +22,7 @@ void Zadanie1(int a, int b, int c)
 
 void Zadanie2(int a, int b, int c)
 {
-
+    cout << "integer part of dividing the sum of integers A and B by C - " << (a + b) / c << "\n";
 }
 
 
