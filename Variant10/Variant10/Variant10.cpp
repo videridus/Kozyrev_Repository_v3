@@ -1,8 +1,11 @@
-﻿#include <iostream>
+#include <iostream>
 using namespace std;
 int EnterNumberA(int a)
 {
-    return 0;
+    cout << "Enter A - ";
+    cin >> a;
+    cout << "A = " << a << "\n";
+    return a;
 }
 
 int EnterNumberB(int b)
@@ -15,17 +18,20 @@ int EnterNumberB(int b)
 
 int EnterNumberC(int c)
 {
-    return 0;
+    cout << "Enter C - ";
+    cin >> c;
+    cout << "C = " << c << "\n";
+    return c;
 }
 
 void Zadanie1(int a, int b, int c)
 {
-
+    cout << "remainder from dividing the sum of integers A and B by C - " << (a + b) % c << "\n";
 }
 
 void Zadanie2(int a, int b, int c)
 {
-
+    cout << "integer part of dividing the sum of integers A and B by C - " << (a + b) / c << "\n";
 }
 
 
