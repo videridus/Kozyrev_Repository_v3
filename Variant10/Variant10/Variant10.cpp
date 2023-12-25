@@ -2,7 +2,10 @@
 using namespace std;
 int EnterNumberA(int a)
 {
-    return 0;
+    cout << "Enter A - ";
+    cin >> a;
+    cout << "A = " << a << "\n";
+    return a;
 }
 
 int EnterNumberB(int b)
