@@ -10,7 +10,10 @@ int EnterNumberA(int a)
 
 int EnterNumberB(int b)
 {
-    return 0;
+    cout << "Enter B - ";
+    cin >> b;
+    cout << "B = " << b << "\n";
+    return b;
 }
 
 int EnterNumberC(int c)
