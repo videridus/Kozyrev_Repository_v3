@@ -17,7 +17,7 @@ int EnterNumberC(int c)
 
 void Zadanie1(int a, int b, int c)
 {
-
+    cout << "remainder from dividing the sum of integers A and B by C - " << (a + b) % c << "\n";
 }
 
 void Zadanie2(int a, int b, int c)
